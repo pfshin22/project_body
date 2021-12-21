@@ -5,8 +5,11 @@ import matplotlib as plt
 import seaborn as sns
 import joblib
 
-from eda_app import run_eda_app
-from ml_app import run_ml_app
+from app_eda import run_eda_app
+from app_ml import run_ml_app
+
+
+
 
 def main() :
     menu = ['홈', '데이터분석', '신체능력평가하기']
