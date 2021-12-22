@@ -12,7 +12,7 @@ from app_ml import run_ml_app
 
 
 def main() :
-    menu = ['홈', '데이터분석', '신체능력평가하기']
+    menu = ['홈', '데이터분석', '신체능력평가하기', '생활조절가이드']
 
     choice = st.sidebar.selectbox('메뉴 선택', menu)
 
