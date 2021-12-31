@@ -9,8 +9,6 @@ from app_eda import run_eda_app
 from app_ml import run_ml_app
 
 
-
-
 def main() :
     menu = ['홈', '데이터분석', '신체능력평가하기', '생활조절가이드']
 
