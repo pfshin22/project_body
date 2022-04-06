@@ -19,8 +19,8 @@
 ### • 인공지능 적용 : 
 1. joblib을 이용해 학습시킨 모델을 load
 2. 유저가 입력해야 하는 항목들을 슬라이더, 라디오, number_input등을 활용하여 구성
-3-1. np.array를 사용해서 학습된 인공지능에 데이터값 입력하여 적용
-3-2. value값 2차원으로 reshape, 
-3-3. value값 scaler하고, 예측
-3-4. inverse_transform으로 원래 단위로 환산하여 출력
+3. np.array를 사용해서 학습된 인공지능에 데이터값 입력하여 적용
+4. value값 2차원으로 reshape, 
+5. value값 scaler하고, 예측
+6. inverse_transform으로 원래 단위로 환산하여 출력
 
